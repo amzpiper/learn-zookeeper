@@ -20,3 +20,269 @@
 2021-06-16 15:00:46 X509Util.java INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
 2021-06-16 15:00:47 ClientCnxnSocket.java INFO jute.maxbuffer value is 4194304 Bytes
 2021-06-16 15:00:47 ClientCnxn.java INFO zookeeper.request.timeout value is 0. feature enabled=
+2021-06-16 15:14:13 Environment.java INFO Client environment:zookeeper.version=3.5.9-83df9301aa5c2a5d284a9940177808c01bc35cef, built on 01/06/2021 20:03 GMT
+2021-06-16 15:14:13 Environment.java INFO Client environment:host.name=DESKTOP-IBKH1S5.mshome.net
+2021-06-16 15:14:13 Environment.java INFO Client environment:java.version=1.8.0_281
+2021-06-16 15:14:13 Environment.java INFO Client environment:java.vendor=Oracle Corporation
+2021-06-16 15:14:13 Environment.java INFO Client environment:java.home=C:\Application\Java\jdk-1.8.281\jre
+2021-06-16 15:14:13 Environment.java INFO Client environment:java.class.path=C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\lib\idea_rt.jar;C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\plugins\junit\lib\junit5-rt.jar;C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\plugins\junit\lib\junit-rt.jar;C:\Application\Java\jdk-1.8.281\jre\lib\charsets.jar;C:\Application\Java\jdk-1.8.281\jre\lib\deploy.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\access-bridge-64.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\cldrdata.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\dnsns.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\jaccess.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\jfxrt.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\localedata.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\nashorn.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunec.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunjce_provider.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunmscapi.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunpkcs11.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\zipfs.jar;C:\Application\Java\jdk-1.8.281\jre\lib\javaws.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jce.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jfr.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jfxswt.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jsse.jar;C:\Application\Java\jdk-1.8.281\jre\lib\management-agent.jar;C:\Application\Java\jdk-1.8.281\jre\lib\plugin.jar;C:\Application\Java\jdk-1.8.281\jre\lib\resources.jar;C:\Application\Java\jdk-1.8.281\jre\lib\rt.jar;D:\programing\learn-zookeeper\target\classes;E:\repository\junit\junit\4.13.2\junit-4.13.2.jar;E:\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;E:\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;E:\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;E:\repository\org\apache\zookeeper\zookeeper\3.5.9\zookeeper-3.5.9.jar;E:\repository\org\apache\zookeeper\zookeeper-jute\3.5.9\zookeeper-jute-3.5.9.jar;E:\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;E:\repository\io\netty\netty-handler\4.1.50.Final\netty-handler-4.1.50.Final.jar;E:\repository\io\netty\netty-common\4.1.50.Final\netty-common-4.1.50.Final.jar;E:\repository\io\netty\netty-resolver\4.1.50.Final\netty-resolver-4.1.50.Final.jar;E:\repository\io\netty\netty-buffer\4.1.50.Final\netty-buffer-4.1.50.Final.jar;E:\repository\io\netty\netty-transport\4.1.50.Final\netty-transport-4.1.50.Final.jar;E:\repository\io\netty\netty-codec\4.1.50.Final\netty-codec-4.1.50.Final.jar;E:\repository\io\netty\netty-transport-native-epoll\4.1.50.Final\netty-transport-native-epoll-4.1.50.Final.jar;E:\repository\io\netty\netty-transport-native-unix-common\4.1.50.Final\netty-transport-native-unix-common-4.1.50.Final.jar;E:\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;E:\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\lib\idea_rt.jar
+2021-06-16 15:14:13 Environment.java INFO Client environment:java.library.path=C:\Application\Java\jdk-1.8.281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Application\Java\jdk-1.8.281\bin;D:\Application\nvm;D:\Application\node;C:\Application\apache-maven-3.6.3\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Application\Git\cmd;C:\Program Files\dotnet\;C:\Application\Python2.7.16;C:\Users\guoyh\AppData\Local\Yarn\bin;D:\Application\TortoiseSVN1.14\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\guoyh\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\guoyh\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\guoyh\AppData\Local\Microsoft\WindowsApps;C:\Application\Microsoft VS Code\bin;C:\Application\Anacoda;C:\Application\Anacoda\Scripts;C:\Application\Anacoda\Library\bin;C:\Users\guoyh\AppData\Local\Yarn\bin;C:\Application\Python2.7.16;C:\Users\guoyh\.dotnet\tools;C:\Users\guoyh\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\guoyh\AppData\Local\GitHubDesktop\bin;;.
+2021-06-16 15:14:13 Environment.java INFO Client environment:java.io.tmpdir=C:\Users\guoyh\AppData\Local\Temp\
+2021-06-16 15:14:13 Environment.java INFO Client environment:java.compiler=<NA>
+2021-06-16 15:14:13 Environment.java INFO Client environment:os.name=Windows 10
+2021-06-16 15:14:13 Environment.java INFO Client environment:os.arch=amd64
+2021-06-16 15:14:13 Environment.java INFO Client environment:os.version=10.0
+2021-06-16 15:14:13 Environment.java INFO Client environment:user.name=guoyh
+2021-06-16 15:14:13 Environment.java INFO Client environment:user.home=C:\Users\guoyh
+2021-06-16 15:14:13 Environment.java INFO Client environment:user.dir=D:\programing\learn-zookeeper
+2021-06-16 15:14:13 Environment.java INFO Client environment:os.memory.free=108MB
+2021-06-16 15:14:13 Environment.java INFO Client environment:os.memory.max=1771MB
+2021-06-16 15:14:13 Environment.java INFO Client environment:os.memory.total=121MB
+2021-06-16 15:14:13 ZooKeeper.java INFO Initiating client connection, connectString=39.106.63.189:2181 sessionTimeout=2000 watcher=com.examplezookeeper.TestZookeeper$1@71e7a66b
+2021-06-16 15:14:13 X509Util.java INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2021-06-16 15:14:14 ClientCnxnSocket.java INFO jute.maxbuffer value is 4194304 Bytes
+2021-06-16 15:14:14 ClientCnxn.java INFO zookeeper.request.timeout value is 0. feature enabled=
+2021-06-16 15:14:23 SaslServerPrincipal.java DEBUG Canonicalized address to 39.106.63.189
+2021-06-16 15:14:23 ClientCnxn.java INFO Opening socket connection to server 39.106.63.189/39.106.63.189:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 15:14:23 ClientCnxn.java WARN Client session timed out, have not heard from server in 9141ms for sessionid 0x0
+2021-06-16 15:14:23 ClientCnxn.java INFO Client session timed out, have not heard from server in 9141ms for sessionid 0x0, closing socket connection and attempting reconnect
+2021-06-16 15:14:23 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:122)
+	at sun.nio.ch.Net.translateException(Net.java:156)
+	at sun.nio.ch.Net.translateException(Net.java:162)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:401)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	... 4 more
+2021-06-16 15:14:23 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:122)
+	at sun.nio.ch.Net.translateException(Net.java:156)
+	at sun.nio.ch.Net.translateException(Net.java:162)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:409)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	... 4 more
+2021-06-16 15:14:53 Environment.java INFO Client environment:zookeeper.version=3.5.9-83df9301aa5c2a5d284a9940177808c01bc35cef, built on 01/06/2021 20:03 GMT
+2021-06-16 15:14:53 Environment.java INFO Client environment:host.name=DESKTOP-IBKH1S5.mshome.net
+2021-06-16 15:14:53 Environment.java INFO Client environment:java.version=1.8.0_281
+2021-06-16 15:14:53 Environment.java INFO Client environment:java.vendor=Oracle Corporation
+2021-06-16 15:14:53 Environment.java INFO Client environment:java.home=C:\Application\Java\jdk-1.8.281\jre
+2021-06-16 15:14:53 Environment.java INFO Client environment:java.class.path=C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\lib\idea_rt.jar;C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\plugins\junit\lib\junit5-rt.jar;C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\plugins\junit\lib\junit-rt.jar;C:\Application\Java\jdk-1.8.281\jre\lib\charsets.jar;C:\Application\Java\jdk-1.8.281\jre\lib\deploy.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\access-bridge-64.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\cldrdata.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\dnsns.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\jaccess.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\jfxrt.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\localedata.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\nashorn.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunec.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunjce_provider.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunmscapi.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunpkcs11.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\zipfs.jar;C:\Application\Java\jdk-1.8.281\jre\lib\javaws.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jce.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jfr.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jfxswt.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jsse.jar;C:\Application\Java\jdk-1.8.281\jre\lib\management-agent.jar;C:\Application\Java\jdk-1.8.281\jre\lib\plugin.jar;C:\Application\Java\jdk-1.8.281\jre\lib\resources.jar;C:\Application\Java\jdk-1.8.281\jre\lib\rt.jar;D:\programing\learn-zookeeper\target\classes;E:\repository\junit\junit\4.13.2\junit-4.13.2.jar;E:\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;E:\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;E:\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;E:\repository\org\apache\zookeeper\zookeeper\3.5.9\zookeeper-3.5.9.jar;E:\repository\org\apache\zookeeper\zookeeper-jute\3.5.9\zookeeper-jute-3.5.9.jar;E:\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;E:\repository\io\netty\netty-handler\4.1.50.Final\netty-handler-4.1.50.Final.jar;E:\repository\io\netty\netty-common\4.1.50.Final\netty-common-4.1.50.Final.jar;E:\repository\io\netty\netty-resolver\4.1.50.Final\netty-resolver-4.1.50.Final.jar;E:\repository\io\netty\netty-buffer\4.1.50.Final\netty-buffer-4.1.50.Final.jar;E:\repository\io\netty\netty-transport\4.1.50.Final\netty-transport-4.1.50.Final.jar;E:\repository\io\netty\netty-codec\4.1.50.Final\netty-codec-4.1.50.Final.jar;E:\repository\io\netty\netty-transport-native-epoll\4.1.50.Final\netty-transport-native-epoll-4.1.50.Final.jar;E:\repository\io\netty\netty-transport-native-unix-common\4.1.50.Final\netty-transport-native-unix-common-4.1.50.Final.jar;E:\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;E:\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\lib\idea_rt.jar
+2021-06-16 15:14:53 Environment.java INFO Client environment:java.library.path=C:\Application\Java\jdk-1.8.281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Application\Java\jdk-1.8.281\bin;D:\Application\nvm;D:\Application\node;C:\Application\apache-maven-3.6.3\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Application\Git\cmd;C:\Program Files\dotnet\;C:\Application\Python2.7.16;C:\Users\guoyh\AppData\Local\Yarn\bin;D:\Application\TortoiseSVN1.14\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\guoyh\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\guoyh\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\guoyh\AppData\Local\Microsoft\WindowsApps;C:\Application\Microsoft VS Code\bin;C:\Application\Anacoda;C:\Application\Anacoda\Scripts;C:\Application\Anacoda\Library\bin;C:\Users\guoyh\AppData\Local\Yarn\bin;C:\Application\Python2.7.16;C:\Users\guoyh\.dotnet\tools;C:\Users\guoyh\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\guoyh\AppData\Local\GitHubDesktop\bin;;.
+2021-06-16 15:14:53 Environment.java INFO Client environment:java.io.tmpdir=C:\Users\guoyh\AppData\Local\Temp\
+2021-06-16 15:14:53 Environment.java INFO Client environment:java.compiler=<NA>
+2021-06-16 15:14:53 Environment.java INFO Client environment:os.name=Windows 10
+2021-06-16 15:14:53 Environment.java INFO Client environment:os.arch=amd64
+2021-06-16 15:14:53 Environment.java INFO Client environment:os.version=10.0
+2021-06-16 15:14:53 Environment.java INFO Client environment:user.name=guoyh
+2021-06-16 15:14:53 Environment.java INFO Client environment:user.home=C:\Users\guoyh
+2021-06-16 15:14:53 Environment.java INFO Client environment:user.dir=D:\programing\learn-zookeeper
+2021-06-16 15:14:53 Environment.java INFO Client environment:os.memory.free=108MB
+2021-06-16 15:14:53 Environment.java INFO Client environment:os.memory.max=1771MB
+2021-06-16 15:14:53 Environment.java INFO Client environment:os.memory.total=121MB
+2021-06-16 15:14:53 ZooKeeper.java INFO Initiating client connection, connectString=39.106.63.189:2181 sessionTimeout=2000 watcher=com.examplezookeeper.TestZookeeper$1@c39f790
+2021-06-16 15:14:53 X509Util.java INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2021-06-16 15:14:53 ClientCnxnSocket.java INFO jute.maxbuffer value is 4194304 Bytes
+2021-06-16 15:14:53 ClientCnxn.java INFO zookeeper.request.timeout value is 0. feature enabled=
+2021-06-16 15:18:42 Environment.java INFO Client environment:zookeeper.version=3.5.9-83df9301aa5c2a5d284a9940177808c01bc35cef, built on 01/06/2021 20:03 GMT
+2021-06-16 15:18:42 Environment.java INFO Client environment:host.name=DESKTOP-IBKH1S5.mshome.net
+2021-06-16 15:18:42 Environment.java INFO Client environment:java.version=1.8.0_281
+2021-06-16 15:18:42 Environment.java INFO Client environment:java.vendor=Oracle Corporation
+2021-06-16 15:18:42 Environment.java INFO Client environment:java.home=C:\Application\Java\jdk-1.8.281\jre
+2021-06-16 15:18:42 Environment.java INFO Client environment:java.class.path=C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\lib\idea_rt.jar;C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\plugins\junit\lib\junit5-rt.jar;C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\plugins\junit\lib\junit-rt.jar;C:\Application\Java\jdk-1.8.281\jre\lib\charsets.jar;C:\Application\Java\jdk-1.8.281\jre\lib\deploy.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\access-bridge-64.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\cldrdata.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\dnsns.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\jaccess.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\jfxrt.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\localedata.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\nashorn.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunec.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunjce_provider.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunmscapi.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunpkcs11.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\zipfs.jar;C:\Application\Java\jdk-1.8.281\jre\lib\javaws.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jce.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jfr.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jfxswt.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jsse.jar;C:\Application\Java\jdk-1.8.281\jre\lib\management-agent.jar;C:\Application\Java\jdk-1.8.281\jre\lib\plugin.jar;C:\Application\Java\jdk-1.8.281\jre\lib\resources.jar;C:\Application\Java\jdk-1.8.281\jre\lib\rt.jar;D:\programing\learn-zookeeper\target\classes;E:\repository\junit\junit\4.13.2\junit-4.13.2.jar;E:\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;E:\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;E:\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;E:\repository\org\apache\zookeeper\zookeeper\3.5.9\zookeeper-3.5.9.jar;E:\repository\org\apache\zookeeper\zookeeper-jute\3.5.9\zookeeper-jute-3.5.9.jar;E:\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;E:\repository\io\netty\netty-handler\4.1.50.Final\netty-handler-4.1.50.Final.jar;E:\repository\io\netty\netty-common\4.1.50.Final\netty-common-4.1.50.Final.jar;E:\repository\io\netty\netty-resolver\4.1.50.Final\netty-resolver-4.1.50.Final.jar;E:\repository\io\netty\netty-buffer\4.1.50.Final\netty-buffer-4.1.50.Final.jar;E:\repository\io\netty\netty-transport\4.1.50.Final\netty-transport-4.1.50.Final.jar;E:\repository\io\netty\netty-codec\4.1.50.Final\netty-codec-4.1.50.Final.jar;E:\repository\io\netty\netty-transport-native-epoll\4.1.50.Final\netty-transport-native-epoll-4.1.50.Final.jar;E:\repository\io\netty\netty-transport-native-unix-common\4.1.50.Final\netty-transport-native-unix-common-4.1.50.Final.jar;E:\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;E:\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\lib\idea_rt.jar
+2021-06-16 15:18:42 Environment.java INFO Client environment:java.library.path=C:\Application\Java\jdk-1.8.281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Application\Java\jdk-1.8.281\bin;D:\Application\nvm;D:\Application\node;C:\Application\apache-maven-3.6.3\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Application\Git\cmd;C:\Program Files\dotnet\;C:\Application\Python2.7.16;C:\Users\guoyh\AppData\Local\Yarn\bin;D:\Application\TortoiseSVN1.14\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\guoyh\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\guoyh\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\guoyh\AppData\Local\Microsoft\WindowsApps;C:\Application\Microsoft VS Code\bin;C:\Application\Anacoda;C:\Application\Anacoda\Scripts;C:\Application\Anacoda\Library\bin;C:\Users\guoyh\AppData\Local\Yarn\bin;C:\Application\Python2.7.16;C:\Users\guoyh\.dotnet\tools;C:\Users\guoyh\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\guoyh\AppData\Local\GitHubDesktop\bin;;.
+2021-06-16 15:18:42 Environment.java INFO Client environment:java.io.tmpdir=C:\Users\guoyh\AppData\Local\Temp\
+2021-06-16 15:18:42 Environment.java INFO Client environment:java.compiler=<NA>
+2021-06-16 15:18:42 Environment.java INFO Client environment:os.name=Windows 10
+2021-06-16 15:18:42 Environment.java INFO Client environment:os.arch=amd64
+2021-06-16 15:18:42 Environment.java INFO Client environment:os.version=10.0
+2021-06-16 15:18:42 Environment.java INFO Client environment:user.name=guoyh
+2021-06-16 15:18:42 Environment.java INFO Client environment:user.home=C:\Users\guoyh
+2021-06-16 15:18:42 Environment.java INFO Client environment:user.dir=D:\programing\learn-zookeeper
+2021-06-16 15:18:42 Environment.java INFO Client environment:os.memory.free=108MB
+2021-06-16 15:18:42 Environment.java INFO Client environment:os.memory.max=1771MB
+2021-06-16 15:18:42 Environment.java INFO Client environment:os.memory.total=121MB
+2021-06-16 15:18:42 ZooKeeper.java INFO Initiating client connection, connectString=39.106.63.189:2181 sessionTimeout=2000 watcher=com.examplezookeeper.ZookeeperTest$1@71e7a66b
+2021-06-16 15:18:42 X509Util.java INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2021-06-16 15:18:42 ClientCnxnSocket.java INFO jute.maxbuffer value is 4194304 Bytes
+2021-06-16 15:18:42 ClientCnxn.java INFO zookeeper.request.timeout value is 0. feature enabled=
+2021-06-16 15:19:09 SaslServerPrincipal.java DEBUG Canonicalized address to 39.106.63.189
+2021-06-16 15:19:09 ClientCnxn.java INFO Opening socket connection to server 39.106.63.189/39.106.63.189:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 15:19:09 ClientCnxn.java WARN Client session timed out, have not heard from server in 26663ms for sessionid 0x0
+2021-06-16 15:19:09 ClientCnxn.java INFO Client session timed out, have not heard from server in 26663ms for sessionid 0x0, closing socket connection and attempting reconnect
+2021-06-16 15:19:09 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:122)
+	at sun.nio.ch.Net.translateException(Net.java:156)
+	at sun.nio.ch.Net.translateException(Net.java:162)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:401)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	... 4 more
+2021-06-16 15:19:09 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:122)
+	at sun.nio.ch.Net.translateException(Net.java:156)
+	at sun.nio.ch.Net.translateException(Net.java:162)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:409)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	... 4 more
+2021-06-16 15:20:55 Environment.java INFO Client environment:zookeeper.version=3.5.9-83df9301aa5c2a5d284a9940177808c01bc35cef, built on 01/06/2021 20:03 GMT
+2021-06-16 15:20:55 Environment.java INFO Client environment:host.name=DESKTOP-IBKH1S5.mshome.net
+2021-06-16 15:20:55 Environment.java INFO Client environment:java.version=1.8.0_281
+2021-06-16 15:20:55 Environment.java INFO Client environment:java.vendor=Oracle Corporation
+2021-06-16 15:20:55 Environment.java INFO Client environment:java.home=C:\Application\Java\jdk-1.8.281\jre
+2021-06-16 15:20:55 Environment.java INFO Client environment:java.class.path=C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\lib\idea_rt.jar;C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\plugins\junit\lib\junit5-rt.jar;C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\plugins\junit\lib\junit-rt.jar;C:\Application\Java\jdk-1.8.281\jre\lib\charsets.jar;C:\Application\Java\jdk-1.8.281\jre\lib\deploy.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\access-bridge-64.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\cldrdata.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\dnsns.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\jaccess.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\jfxrt.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\localedata.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\nashorn.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunec.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunjce_provider.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunmscapi.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunpkcs11.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\zipfs.jar;C:\Application\Java\jdk-1.8.281\jre\lib\javaws.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jce.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jfr.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jfxswt.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jsse.jar;C:\Application\Java\jdk-1.8.281\jre\lib\management-agent.jar;C:\Application\Java\jdk-1.8.281\jre\lib\plugin.jar;C:\Application\Java\jdk-1.8.281\jre\lib\resources.jar;C:\Application\Java\jdk-1.8.281\jre\lib\rt.jar;D:\programing\learn-zookeeper\target\classes;E:\repository\junit\junit\4.13.2\junit-4.13.2.jar;E:\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;E:\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;E:\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;E:\repository\org\apache\zookeeper\zookeeper\3.5.9\zookeeper-3.5.9.jar;E:\repository\org\apache\zookeeper\zookeeper-jute\3.5.9\zookeeper-jute-3.5.9.jar;E:\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;E:\repository\io\netty\netty-handler\4.1.50.Final\netty-handler-4.1.50.Final.jar;E:\repository\io\netty\netty-common\4.1.50.Final\netty-common-4.1.50.Final.jar;E:\repository\io\netty\netty-resolver\4.1.50.Final\netty-resolver-4.1.50.Final.jar;E:\repository\io\netty\netty-buffer\4.1.50.Final\netty-buffer-4.1.50.Final.jar;E:\repository\io\netty\netty-transport\4.1.50.Final\netty-transport-4.1.50.Final.jar;E:\repository\io\netty\netty-codec\4.1.50.Final\netty-codec-4.1.50.Final.jar;E:\repository\io\netty\netty-transport-native-epoll\4.1.50.Final\netty-transport-native-epoll-4.1.50.Final.jar;E:\repository\io\netty\netty-transport-native-unix-common\4.1.50.Final\netty-transport-native-unix-common-4.1.50.Final.jar;E:\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;E:\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\lib\idea_rt.jar
+2021-06-16 15:20:55 Environment.java INFO Client environment:java.library.path=C:\Application\Java\jdk-1.8.281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Application\Java\jdk-1.8.281\bin;D:\Application\nvm;D:\Application\node;C:\Application\apache-maven-3.6.3\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Application\Git\cmd;C:\Program Files\dotnet\;C:\Application\Python2.7.16;C:\Users\guoyh\AppData\Local\Yarn\bin;D:\Application\TortoiseSVN1.14\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\guoyh\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\guoyh\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\guoyh\AppData\Local\Microsoft\WindowsApps;C:\Application\Microsoft VS Code\bin;C:\Application\Anacoda;C:\Application\Anacoda\Scripts;C:\Application\Anacoda\Library\bin;C:\Users\guoyh\AppData\Local\Yarn\bin;C:\Application\Python2.7.16;C:\Users\guoyh\.dotnet\tools;C:\Users\guoyh\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\guoyh\AppData\Local\GitHubDesktop\bin;;.
+2021-06-16 15:20:55 Environment.java INFO Client environment:java.io.tmpdir=C:\Users\guoyh\AppData\Local\Temp\
+2021-06-16 15:20:55 Environment.java INFO Client environment:java.compiler=<NA>
+2021-06-16 15:20:55 Environment.java INFO Client environment:os.name=Windows 10
+2021-06-16 15:20:55 Environment.java INFO Client environment:os.arch=amd64
+2021-06-16 15:20:55 Environment.java INFO Client environment:os.version=10.0
+2021-06-16 15:20:55 Environment.java INFO Client environment:user.name=guoyh
+2021-06-16 15:20:55 Environment.java INFO Client environment:user.home=C:\Users\guoyh
+2021-06-16 15:20:55 Environment.java INFO Client environment:user.dir=D:\programing\learn-zookeeper
+2021-06-16 15:20:55 Environment.java INFO Client environment:os.memory.free=108MB
+2021-06-16 15:20:55 Environment.java INFO Client environment:os.memory.max=1771MB
+2021-06-16 15:20:55 Environment.java INFO Client environment:os.memory.total=121MB
+2021-06-16 15:20:55 ZooKeeper.java INFO Initiating client connection, connectString=39.106.63.189:2181 sessionTimeout=20000 watcher=com.examplezookeeper.ZookeeperTest$1@71e7a66b
+2021-06-16 15:20:55 X509Util.java INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2021-06-16 15:20:55 ClientCnxnSocket.java INFO jute.maxbuffer value is 4194304 Bytes
+2021-06-16 15:20:55 ClientCnxn.java INFO zookeeper.request.timeout value is 0. feature enabled=
+2021-06-16 15:21:15 SaslServerPrincipal.java DEBUG Canonicalized address to 39.106.63.189
+2021-06-16 15:21:15 ClientCnxn.java INFO Opening socket connection to server 39.106.63.189/39.106.63.189:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 15:21:15 ClientCnxn.java WARN Client session timed out, have not heard from server in 20147ms for sessionid 0x0
+2021-06-16 15:21:15 ClientCnxn.java INFO Client session timed out, have not heard from server in 20147ms for sessionid 0x0, closing socket connection and attempting reconnect
+2021-06-16 15:21:15 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:122)
+	at sun.nio.ch.Net.translateException(Net.java:156)
+	at sun.nio.ch.Net.translateException(Net.java:162)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:401)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	... 4 more
+2021-06-16 15:21:15 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:122)
+	at sun.nio.ch.Net.translateException(Net.java:156)
+	at sun.nio.ch.Net.translateException(Net.java:162)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:409)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	... 4 more
+2021-06-16 15:22:21 Environment.java INFO Client environment:zookeeper.version=3.5.9-83df9301aa5c2a5d284a9940177808c01bc35cef, built on 01/06/2021 20:03 GMT
+2021-06-16 15:22:21 Environment.java INFO Client environment:host.name=DESKTOP-IBKH1S5.mshome.net
+2021-06-16 15:22:21 Environment.java INFO Client environment:java.version=1.8.0_281
+2021-06-16 15:22:21 Environment.java INFO Client environment:java.vendor=Oracle Corporation
+2021-06-16 15:22:21 Environment.java INFO Client environment:java.home=C:\Application\Java\jdk-1.8.281\jre
+2021-06-16 15:22:21 Environment.java INFO Client environment:java.class.path=C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\lib\idea_rt.jar;C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\plugins\junit\lib\junit5-rt.jar;C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\plugins\junit\lib\junit-rt.jar;C:\Application\Java\jdk-1.8.281\jre\lib\charsets.jar;C:\Application\Java\jdk-1.8.281\jre\lib\deploy.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\access-bridge-64.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\cldrdata.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\dnsns.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\jaccess.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\jfxrt.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\localedata.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\nashorn.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunec.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunjce_provider.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunmscapi.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunpkcs11.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\zipfs.jar;C:\Application\Java\jdk-1.8.281\jre\lib\javaws.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jce.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jfr.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jfxswt.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jsse.jar;C:\Application\Java\jdk-1.8.281\jre\lib\management-agent.jar;C:\Application\Java\jdk-1.8.281\jre\lib\plugin.jar;C:\Application\Java\jdk-1.8.281\jre\lib\resources.jar;C:\Application\Java\jdk-1.8.281\jre\lib\rt.jar;D:\programing\learn-zookeeper\target\classes;E:\repository\junit\junit\4.13.2\junit-4.13.2.jar;E:\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;E:\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;E:\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;E:\repository\org\apache\zookeeper\zookeeper\3.5.9\zookeeper-3.5.9.jar;E:\repository\org\apache\zookeeper\zookeeper-jute\3.5.9\zookeeper-jute-3.5.9.jar;E:\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;E:\repository\io\netty\netty-handler\4.1.50.Final\netty-handler-4.1.50.Final.jar;E:\repository\io\netty\netty-common\4.1.50.Final\netty-common-4.1.50.Final.jar;E:\repository\io\netty\netty-resolver\4.1.50.Final\netty-resolver-4.1.50.Final.jar;E:\repository\io\netty\netty-buffer\4.1.50.Final\netty-buffer-4.1.50.Final.jar;E:\repository\io\netty\netty-transport\4.1.50.Final\netty-transport-4.1.50.Final.jar;E:\repository\io\netty\netty-codec\4.1.50.Final\netty-codec-4.1.50.Final.jar;E:\repository\io\netty\netty-transport-native-epoll\4.1.50.Final\netty-transport-native-epoll-4.1.50.Final.jar;E:\repository\io\netty\netty-transport-native-unix-common\4.1.50.Final\netty-transport-native-unix-common-4.1.50.Final.jar;E:\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;E:\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\lib\idea_rt.jar
+2021-06-16 15:22:21 Environment.java INFO Client environment:java.library.path=C:\Application\Java\jdk-1.8.281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Application\Java\jdk-1.8.281\bin;D:\Application\nvm;D:\Application\node;C:\Application\apache-maven-3.6.3\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Application\Git\cmd;C:\Program Files\dotnet\;C:\Application\Python2.7.16;C:\Users\guoyh\AppData\Local\Yarn\bin;D:\Application\TortoiseSVN1.14\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\guoyh\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\guoyh\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\guoyh\AppData\Local\Microsoft\WindowsApps;C:\Application\Microsoft VS Code\bin;C:\Application\Anacoda;C:\Application\Anacoda\Scripts;C:\Application\Anacoda\Library\bin;C:\Users\guoyh\AppData\Local\Yarn\bin;C:\Application\Python2.7.16;C:\Users\guoyh\.dotnet\tools;C:\Users\guoyh\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\guoyh\AppData\Local\GitHubDesktop\bin;;.
+2021-06-16 15:22:21 Environment.java INFO Client environment:java.io.tmpdir=C:\Users\guoyh\AppData\Local\Temp\
+2021-06-16 15:22:21 Environment.java INFO Client environment:java.compiler=<NA>
+2021-06-16 15:22:21 Environment.java INFO Client environment:os.name=Windows 10
+2021-06-16 15:22:21 Environment.java INFO Client environment:os.arch=amd64
+2021-06-16 15:22:21 Environment.java INFO Client environment:os.version=10.0
+2021-06-16 15:22:21 Environment.java INFO Client environment:user.name=guoyh
+2021-06-16 15:22:21 Environment.java INFO Client environment:user.home=C:\Users\guoyh
+2021-06-16 15:22:21 Environment.java INFO Client environment:user.dir=D:\programing\learn-zookeeper
+2021-06-16 15:22:21 Environment.java INFO Client environment:os.memory.free=108MB
+2021-06-16 15:22:21 Environment.java INFO Client environment:os.memory.max=1771MB
+2021-06-16 15:22:21 Environment.java INFO Client environment:os.memory.total=121MB
+2021-06-16 15:22:21 ZooKeeper.java INFO Initiating client connection, connectString=39.106.63.189:2181 sessionTimeout=20000 watcher=com.examplezookeeper.ZookeeperTest$1@71e7a66b
+2021-06-16 15:22:21 X509Util.java INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2021-06-16 15:22:22 ClientCnxnSocket.java INFO jute.maxbuffer value is 4194304 Bytes
+2021-06-16 15:22:22 ClientCnxn.java INFO zookeeper.request.timeout value is 0. feature enabled=
+2021-06-16 15:22:42 SaslServerPrincipal.java DEBUG Canonicalized address to 39.106.63.189
+2021-06-16 15:22:42 ClientCnxn.java INFO Opening socket connection to server 39.106.63.189/39.106.63.189:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 15:22:42 ClientCnxn.java WARN Client session timed out, have not heard from server in 20126ms for sessionid 0x0
+2021-06-16 15:22:42 ClientCnxn.java INFO Client session timed out, have not heard from server in 20126ms for sessionid 0x0, closing socket connection and attempting reconnect
+2021-06-16 15:22:42 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:122)
+	at sun.nio.ch.Net.translateException(Net.java:156)
+	at sun.nio.ch.Net.translateException(Net.java:162)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:401)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	... 4 more
+2021-06-16 15:22:42 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:122)
+	at sun.nio.ch.Net.translateException(Net.java:156)
+	at sun.nio.ch.Net.translateException(Net.java:162)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:409)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+Caused by: java.nio.channels.NotYetConnectedException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	... 4 more
+2021-06-16 15:24:49 Environment.java INFO Client environment:zookeeper.version=3.5.9-83df9301aa5c2a5d284a9940177808c01bc35cef, built on 01/06/2021 20:03 GMT
+2021-06-16 15:24:49 Environment.java INFO Client environment:host.name=DESKTOP-IBKH1S5.mshome.net
+2021-06-16 15:24:49 Environment.java INFO Client environment:java.version=1.8.0_281
+2021-06-16 15:24:49 Environment.java INFO Client environment:java.vendor=Oracle Corporation
+2021-06-16 15:24:49 Environment.java INFO Client environment:java.home=C:\Application\Java\jdk-1.8.281\jre
+2021-06-16 15:24:49 Environment.java INFO Client environment:java.class.path=C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\lib\idea_rt.jar;C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\plugins\junit\lib\junit5-rt.jar;C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\plugins\junit\lib\junit-rt.jar;C:\Application\Java\jdk-1.8.281\jre\lib\charsets.jar;C:\Application\Java\jdk-1.8.281\jre\lib\deploy.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\access-bridge-64.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\cldrdata.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\dnsns.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\jaccess.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\jfxrt.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\localedata.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\nashorn.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunec.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunjce_provider.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunmscapi.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\sunpkcs11.jar;C:\Application\Java\jdk-1.8.281\jre\lib\ext\zipfs.jar;C:\Application\Java\jdk-1.8.281\jre\lib\javaws.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jce.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jfr.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jfxswt.jar;C:\Application\Java\jdk-1.8.281\jre\lib\jsse.jar;C:\Application\Java\jdk-1.8.281\jre\lib\management-agent.jar;C:\Application\Java\jdk-1.8.281\jre\lib\plugin.jar;C:\Application\Java\jdk-1.8.281\jre\lib\resources.jar;C:\Application\Java\jdk-1.8.281\jre\lib\rt.jar;D:\programing\learn-zookeeper\target\classes;E:\repository\junit\junit\4.13.2\junit-4.13.2.jar;E:\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;E:\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;E:\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;E:\repository\org\apache\zookeeper\zookeeper\3.5.9\zookeeper-3.5.9.jar;E:\repository\org\apache\zookeeper\zookeeper-jute\3.5.9\zookeeper-jute-3.5.9.jar;E:\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;E:\repository\io\netty\netty-handler\4.1.50.Final\netty-handler-4.1.50.Final.jar;E:\repository\io\netty\netty-common\4.1.50.Final\netty-common-4.1.50.Final.jar;E:\repository\io\netty\netty-resolver\4.1.50.Final\netty-resolver-4.1.50.Final.jar;E:\repository\io\netty\netty-buffer\4.1.50.Final\netty-buffer-4.1.50.Final.jar;E:\repository\io\netty\netty-transport\4.1.50.Final\netty-transport-4.1.50.Final.jar;E:\repository\io\netty\netty-codec\4.1.50.Final\netty-codec-4.1.50.Final.jar;E:\repository\io\netty\netty-transport-native-epoll\4.1.50.Final\netty-transport-native-epoll-4.1.50.Final.jar;E:\repository\io\netty\netty-transport-native-unix-common\4.1.50.Final\netty-transport-native-unix-common-4.1.50.Final.jar;E:\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;E:\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Application\JetBrains\IntelliJ IDEA 2020.1.3\lib\idea_rt.jar
+2021-06-16 15:24:49 Environment.java INFO Client environment:java.library.path=C:\Application\Java\jdk-1.8.281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Application\Java\jdk-1.8.281\bin;D:\Application\nvm;D:\Application\node;C:\Application\apache-maven-3.6.3\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Application\Git\cmd;C:\Program Files\dotnet\;C:\Application\Python2.7.16;C:\Users\guoyh\AppData\Local\Yarn\bin;D:\Application\TortoiseSVN1.14\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\guoyh\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\guoyh\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\guoyh\AppData\Local\Microsoft\WindowsApps;C:\Application\Microsoft VS Code\bin;C:\Application\Anacoda;C:\Application\Anacoda\Scripts;C:\Application\Anacoda\Library\bin;C:\Users\guoyh\AppData\Local\Yarn\bin;C:\Application\Python2.7.16;C:\Users\guoyh\.dotnet\tools;C:\Users\guoyh\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\guoyh\AppData\Local\GitHubDesktop\bin;;.
+2021-06-16 15:24:49 Environment.java INFO Client environment:java.io.tmpdir=C:\Users\guoyh\AppData\Local\Temp\
+2021-06-16 15:24:49 Environment.java INFO Client environment:java.compiler=<NA>
+2021-06-16 15:24:49 Environment.java INFO Client environment:os.name=Windows 10
+2021-06-16 15:24:49 Environment.java INFO Client environment:os.arch=amd64
+2021-06-16 15:24:49 Environment.java INFO Client environment:os.version=10.0
+2021-06-16 15:24:49 Environment.java INFO Client environment:user.name=guoyh
+2021-06-16 15:24:49 Environment.java INFO Client environment:user.home=C:\Users\guoyh
+2021-06-16 15:24:49 Environment.java INFO Client environment:user.dir=D:\programing\learn-zookeeper
+2021-06-16 15:24:49 Environment.java INFO Client environment:os.memory.free=108MB
+2021-06-16 15:24:49 Environment.java INFO Client environment:os.memory.max=1771MB
+2021-06-16 15:24:49 Environment.java INFO Client environment:os.memory.total=121MB
+2021-06-16 15:24:49 ZooKeeper.java INFO Initiating client connection, connectString=39.106.63.189:2181 sessionTimeout=200000 watcher=com.examplezookeeper.ZookeeperTest$1@71e7a66b
+2021-06-16 15:24:49 X509Util.java INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2021-06-16 15:24:49 ClientCnxnSocket.java INFO jute.maxbuffer value is 4194304 Bytes
+2021-06-16 15:24:49 ClientCnxn.java INFO zookeeper.request.timeout value is 0. feature enabled=
+2021-06-16 15:25:22 SaslServerPrincipal.java DEBUG Canonicalized address to 39.106.63.189
+2021-06-16 15:25:22 ClientCnxn.java INFO Opening socket connection to server 39.106.63.189/39.106.63.189:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 15:25:23 ClientCnxn.java INFO Socket connection established, initiating session, client: /10.8.8.64:56752, server: 39.106.63.189/39.106.63.189:2181
+2021-06-16 15:25:23 ClientCnxn.java DEBUG Session establishment request sent on 39.106.63.189/39.106.63.189:2181
+2021-06-16 15:25:23 ClientCnxn.java INFO Session establishment complete on server 39.106.63.189/39.106.63.189:2181, sessionid = 0x100bcf2fcbd0008, negotiated timeout = 40000
+2021-06-16 15:25:23 ClientCnxn.java DEBUG Reading reply sessionid:0x100bcf2fcbd0008, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,20,0  request:: '/guoyh,#67756f7968,v{s{31,s{'world,'anyone}}},0  response:: '/guoyh 
