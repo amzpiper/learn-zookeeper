@@ -9,7 +9,7 @@ import java.io.IOException;
  */
 public class DistributeServer {
     private ZooKeeper zkCli;
-    String connectString = "127.0.0.1:2181";
+    String connectString = "0.0.0.0:2181";
     int sessionTimeout = 200000;
 
     public static void main(String[] args) {

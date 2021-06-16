@@ -411,3 +411,1046 @@ Caused by: java.nio.channels.NotYetConnectedException
 2021-06-16 16:19:50 ClientCnxn.java INFO Session establishment complete on server kubernetes.docker.internal/127.0.0.1:2181, sessionid = 0x100206ffba30002, negotiated timeout = 40000
 2021-06-16 16:19:50 ClientCnxn.java DEBUG Reading reply sessionid:0x100206ffba30002, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,235,0  request:: '/guoyh,#67756f7968,v{s{31,s{'world,'anyone}}},0  response:: '/guoyh 
 2021-06-16 16:19:50 ClientCnxn.java DEBUG Reading reply sessionid:0x100206ffba30002, packet:: clientPath:null serverPath:null finished:false header:: 2,8  replyHeader:: 2,235,0  request:: '/,T  response:: v{'dubbo,'guoyh,'your namespace,'zookeeper} 
+2021-06-16 21:32:25 Environment.java INFO Client environment:zookeeper.version=3.5.9-83df9301aa5c2a5d284a9940177808c01bc35cef, built on 01/06/2021 20:03 GMT
+2021-06-16 21:32:25 Environment.java INFO Client environment:host.name=yuhang
+2021-06-16 21:32:25 Environment.java INFO Client environment:java.version=1.8.0_251
+2021-06-16 21:32:25 Environment.java INFO Client environment:java.vendor=Oracle Corporation
+2021-06-16 21:32:25 Environment.java INFO Client environment:java.home=D:\Application\Java\jdk1.8.0_251\jre
+2021-06-16 21:32:25 Environment.java INFO Client environment:java.class.path=D:\Application\Java\jdk1.8.0_251\jre\lib\charsets.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\deploy.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\access-bridge-64.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\cldrdata.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\dnsns.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\jaccess.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\jfxrt.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\localedata.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\nashorn.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\sunec.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\sunjce_provider.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\sunmscapi.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\sunpkcs11.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\zipfs.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\javaws.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\jce.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\jfr.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\jfxswt.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\jsse.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\management-agent.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\plugin.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\resources.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\rt.jar;D:\Programming\learn-zookeeper\target\classes;C:\Users\DELL\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\DELL\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\DELL\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\DELL\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\DELL\.m2\repository\org\apache\zookeeper\zookeeper\3.5.9\zookeeper-3.5.9.jar;C:\Users\DELL\.m2\repository\org\apache\zookeeper\zookeeper-jute\3.5.9\zookeeper-jute-3.5.9.jar;C:\Users\DELL\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\DELL\.m2\repository\io\netty\netty-handler\4.1.50.Final\netty-handler-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-common\4.1.50.Final\netty-common-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-resolver\4.1.50.Final\netty-resolver-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-buffer\4.1.50.Final\netty-buffer-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport\4.1.50.Final\netty-transport-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-codec\4.1.50.Final\netty-codec-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-epoll\4.1.50.Final\netty-transport-native-epoll-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.50.Final\netty-transport-native-unix-common-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\DELL\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\DELL\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\Application\JetBrains\IntelliJ IDEA 2019.2.3\lib\idea_rt.jar
+2021-06-16 21:32:25 Environment.java INFO Client environment:java.library.path=D:\Application\Java\jdk1.8.0_251\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Application\Java\jdk1.8.0_251\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Application\Python2.7.16;C:\Users\DELL\AppData\Local\Yarn\bin;D:\Application\Anaconda3;D:\Application\Anaconda3\Library\mingw-w64\bin;D:\Application\Anaconda3\Library\usr\bin;D:\Application\Anaconda3\Library\bin;D:\Application\Anaconda3\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft VS Code\bin;D:\Application\Microsoft VS Code\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Application\SVN\Servlet\bin;D:\Application\SVN\TortoiseSVN\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;D:\Application\Git\cmd;D:\Application\nvm;D:\Application\nodejs;C:\Program Files (x86)\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\Application\Java\jdk1.8.0_251\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;D:\Application\apache-maven-3.6.3\bin;D:\Application\NODEJS\node_modules;D:\Application\nvm;D:\Application\nodejs;;C:\Users\DELL\AppData\Local\hyper\app-3.0.2\resources\bin;.
+2021-06-16 21:32:25 Environment.java INFO Client environment:java.io.tmpdir=C:\Users\DELL\AppData\Local\Temp\
+2021-06-16 21:32:25 Environment.java INFO Client environment:java.compiler=<NA>
+2021-06-16 21:32:25 Environment.java INFO Client environment:os.name=Windows 10
+2021-06-16 21:32:25 Environment.java INFO Client environment:os.arch=amd64
+2021-06-16 21:32:25 Environment.java INFO Client environment:os.version=10.0
+2021-06-16 21:32:25 Environment.java INFO Client environment:user.name=DELL
+2021-06-16 21:32:25 Environment.java INFO Client environment:user.home=C:\Users\DELL
+2021-06-16 21:32:25 Environment.java INFO Client environment:user.dir=D:\Programming\learn-zookeeper
+2021-06-16 21:32:25 Environment.java INFO Client environment:os.memory.free=233MB
+2021-06-16 21:32:25 Environment.java INFO Client environment:os.memory.max=3621MB
+2021-06-16 21:32:25 Environment.java INFO Client environment:os.memory.total=245MB
+2021-06-16 21:32:25 ZooKeeper.java INFO Initiating client connection, connectString=0.0.0.0:2181 sessionTimeout=200000 watcher=com.example.zookeeper.client.DistributeClient$1@77a567e1
+2021-06-16 21:32:25 X509Util.java INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2021-06-16 21:32:26 ClientCnxnSocket.java INFO jute.maxbuffer value is 4194304 Bytes
+2021-06-16 21:32:26 ClientCnxn.java INFO zookeeper.request.timeout value is 0. feature enabled=
+2021-06-16 21:32:26 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:32:26 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:32:28 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:32:28 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:32:28 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:32:29 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:32:29 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:32:31 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:32:31 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:32:31 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:32:32 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:32:32 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:32:34 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:32:34 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:32:34 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:32:35 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:32:35 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:32:37 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:32:37 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:32:37 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:32:38 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:32:38 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:32:40 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:32:40 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:32:40 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:32:41 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:32:41 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:32:43 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:32:43 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:32:43 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:32:44 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:32:44 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:32:46 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:32:46 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:32:46 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:32:47 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:32:47 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:32:49 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:32:49 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:32:49 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:32:50 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:32:50 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:32:52 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:32:52 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:32:52 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:32:54 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:32:54 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:32:56 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:32:56 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:32:56 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:32:57 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:32:57 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:32:59 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:32:59 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:32:59 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:00 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:33:00 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:33:02 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:33:02 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:02 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:03 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:33:03 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:33:05 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:33:05 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:05 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:06 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:33:06 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:33:08 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:33:08 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:08 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:09 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:33:09 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:33:11 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:33:11 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:11 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:12 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:33:12 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:33:14 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:33:14 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:14 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:15 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:33:15 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:33:17 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:33:17 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:17 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:18 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:33:18 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:33:20 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:33:20 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:20 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:22 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:33:22 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:33:24 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:33:24 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:24 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:25 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:33:25 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:33:27 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:33:27 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:27 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:28 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:33:28 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:33:30 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:33:30 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:30 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:31 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:33:31 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:33:33 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:33:33 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:33 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:34 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:33:34 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:33:36 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:33:36 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:36 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:37 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:33:37 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:33:39 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:33:39 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:39 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:40 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:33:40 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:33:42 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:33:42 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:42 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:43 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:33:43 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:33:45 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:33:45 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:45 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:46 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:33:46 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:33:48 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:33:48 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:48 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:49 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:33:49 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:33:52 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:33:52 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:52 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:53 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:33:53 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:33:55 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:33:55 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:55 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:56 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:33:56 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:33:58 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:33:58 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:58 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:33:59 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:33:59 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:34:01 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:34:01 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:01 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:02 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:34:02 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:34:04 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:34:04 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:04 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:05 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:34:05 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:34:07 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:34:07 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:07 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:08 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:34:08 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:34:10 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:34:10 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:10 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:11 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:34:11 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:34:13 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:34:13 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:13 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:14 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:34:14 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:34:16 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:34:16 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:16 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:17 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:34:17 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:34:19 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:34:19 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:19 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:21 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:34:21 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:34:23 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:34:23 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:23 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:24 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:34:24 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:34:26 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:34:26 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:26 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:27 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:34:27 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:34:29 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:34:29 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:29 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:30 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:34:30 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:34:32 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:34:32 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:32 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:33 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:34:33 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:34:35 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:34:35 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:35 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:36 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:34:36 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:34:38 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:34:38 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:38 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:39 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:34:39 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:34:41 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:34:41 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:41 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:42 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:34:42 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:34:44 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:34:44 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:44 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:45 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:34:45 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:34:47 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:34:47 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:47 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:49 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:34:49 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:34:51 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:34:51 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:51 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:52 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:34:52 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:34:54 ClientCnxn.java INFO Socket error occurred: 0.0.0.0/0.0.0.0:2181: Connection refused: no further information
+2021-06-16 21:34:54 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:54 ClientCnxnSocketNIO.java DEBUG Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1338)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanAndNotifyState(ClientCnxn.java:1276)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1254)
+2021-06-16 21:34:55 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:34:55 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:34:55 ClientCnxn.java INFO Socket connection established, initiating session, client: /192.168.56.1:10358, server: 0.0.0.0/0.0.0.0:2181
+2021-06-16 21:34:55 ClientCnxn.java DEBUG Session establishment request sent on 0.0.0.0/0.0.0.0:2181
+2021-06-16 21:34:55 ClientCnxn.java INFO Session establishment complete on server 0.0.0.0/0.0.0.0:2181, sessionid = 0x1000016e9230000, negotiated timeout = 40000
+2021-06-16 21:34:55 ClientCnxn.java DEBUG Reading reply sessionid:0x1000016e9230000, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,4,-101  request:: '/servers,T  response:: v{} 
+2021-06-16 21:35:08 ClientCnxn.java DEBUG Got ping response for sessionid: 0x1000016e9230000 after 2ms
+2021-06-16 21:35:21 ClientCnxn.java DEBUG Got ping response for sessionid: 0x1000016e9230000 after 2ms
+2021-06-16 21:35:35 ClientCnxn.java DEBUG Got ping response for sessionid: 0x1000016e9230000 after 1ms
+2021-06-16 21:35:48 ClientCnxn.java DEBUG Got ping response for sessionid: 0x1000016e9230000 after 1ms
+2021-06-16 21:36:01 ClientCnxn.java DEBUG Got ping response for sessionid: 0x1000016e9230000 after 1ms
+2021-06-16 21:36:15 ClientCnxn.java DEBUG Got ping response for sessionid: 0x1000016e9230000 after 0ms
+2021-06-16 21:36:21 Environment.java INFO Client environment:zookeeper.version=3.5.9-83df9301aa5c2a5d284a9940177808c01bc35cef, built on 01/06/2021 20:03 GMT
+2021-06-16 21:36:21 Environment.java INFO Client environment:host.name=yuhang
+2021-06-16 21:36:21 Environment.java INFO Client environment:java.version=1.8.0_251
+2021-06-16 21:36:21 Environment.java INFO Client environment:java.vendor=Oracle Corporation
+2021-06-16 21:36:21 Environment.java INFO Client environment:java.home=D:\Application\Java\jdk1.8.0_251\jre
+2021-06-16 21:36:21 Environment.java INFO Client environment:java.class.path=D:\Application\Java\jdk1.8.0_251\jre\lib\charsets.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\deploy.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\access-bridge-64.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\cldrdata.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\dnsns.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\jaccess.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\jfxrt.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\localedata.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\nashorn.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\sunec.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\sunjce_provider.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\sunmscapi.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\sunpkcs11.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\zipfs.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\javaws.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\jce.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\jfr.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\jfxswt.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\jsse.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\management-agent.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\plugin.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\resources.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\rt.jar;D:\Programming\learn-zookeeper\target\classes;C:\Users\DELL\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\DELL\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\DELL\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\DELL\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\DELL\.m2\repository\org\apache\zookeeper\zookeeper\3.5.9\zookeeper-3.5.9.jar;C:\Users\DELL\.m2\repository\org\apache\zookeeper\zookeeper-jute\3.5.9\zookeeper-jute-3.5.9.jar;C:\Users\DELL\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\DELL\.m2\repository\io\netty\netty-handler\4.1.50.Final\netty-handler-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-common\4.1.50.Final\netty-common-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-resolver\4.1.50.Final\netty-resolver-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-buffer\4.1.50.Final\netty-buffer-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport\4.1.50.Final\netty-transport-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-codec\4.1.50.Final\netty-codec-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-epoll\4.1.50.Final\netty-transport-native-epoll-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.50.Final\netty-transport-native-unix-common-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\DELL\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\DELL\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\Application\JetBrains\IntelliJ IDEA 2019.2.3\lib\idea_rt.jar
+2021-06-16 21:36:21 Environment.java INFO Client environment:java.library.path=D:\Application\Java\jdk1.8.0_251\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Application\Java\jdk1.8.0_251\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Application\Python2.7.16;C:\Users\DELL\AppData\Local\Yarn\bin;D:\Application\Anaconda3;D:\Application\Anaconda3\Library\mingw-w64\bin;D:\Application\Anaconda3\Library\usr\bin;D:\Application\Anaconda3\Library\bin;D:\Application\Anaconda3\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft VS Code\bin;D:\Application\Microsoft VS Code\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Application\SVN\Servlet\bin;D:\Application\SVN\TortoiseSVN\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;D:\Application\Git\cmd;D:\Application\nvm;D:\Application\nodejs;C:\Program Files (x86)\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\Application\Java\jdk1.8.0_251\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;D:\Application\apache-maven-3.6.3\bin;D:\Application\NODEJS\node_modules;D:\Application\nvm;D:\Application\nodejs;;C:\Users\DELL\AppData\Local\hyper\app-3.0.2\resources\bin;.
+2021-06-16 21:36:21 Environment.java INFO Client environment:java.io.tmpdir=C:\Users\DELL\AppData\Local\Temp\
+2021-06-16 21:36:21 Environment.java INFO Client environment:java.compiler=<NA>
+2021-06-16 21:36:21 Environment.java INFO Client environment:os.name=Windows 10
+2021-06-16 21:36:21 Environment.java INFO Client environment:os.arch=amd64
+2021-06-16 21:36:21 Environment.java INFO Client environment:os.version=10.0
+2021-06-16 21:36:21 Environment.java INFO Client environment:user.name=DELL
+2021-06-16 21:36:21 Environment.java INFO Client environment:user.home=C:\Users\DELL
+2021-06-16 21:36:21 Environment.java INFO Client environment:user.dir=D:\Programming\learn-zookeeper
+2021-06-16 21:36:21 Environment.java INFO Client environment:os.memory.free=233MB
+2021-06-16 21:36:21 Environment.java INFO Client environment:os.memory.max=3621MB
+2021-06-16 21:36:21 Environment.java INFO Client environment:os.memory.total=245MB
+2021-06-16 21:36:21 ZooKeeper.java INFO Initiating client connection, connectString=0.0.0.0:2181 sessionTimeout=200000 watcher=com.example.zookeeper.client.DistributeClient$1@77a567e1
+2021-06-16 21:36:21 X509Util.java INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2021-06-16 21:36:22 ClientCnxnSocket.java INFO jute.maxbuffer value is 4194304 Bytes
+2021-06-16 21:36:22 ClientCnxn.java INFO zookeeper.request.timeout value is 0. feature enabled=
+2021-06-16 21:36:22 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:36:22 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:36:22 ClientCnxn.java INFO Socket connection established, initiating session, client: /192.168.56.1:14724, server: 0.0.0.0/0.0.0.0:2181
+2021-06-16 21:36:22 ClientCnxn.java DEBUG Session establishment request sent on 0.0.0.0/0.0.0.0:2181
+2021-06-16 21:36:22 ClientCnxn.java INFO Session establishment complete on server 0.0.0.0/0.0.0.0:2181, sessionid = 0x1000016e9230002, negotiated timeout = 40000
+2021-06-16 21:36:22 ClientCnxn.java DEBUG Reading reply sessionid:0x1000016e9230002, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,8,0  request:: '/servers,T  response:: v{} 
+2021-06-16 21:36:22 ClientCnxn.java DEBUG Reading reply sessionid:0x1000016e9230002, packet:: clientPath:null serverPath:null finished:false header:: 2,8  replyHeader:: 2,8,0  request:: '/servers,T  response:: v{} 
+2021-06-16 21:36:35 ClientCnxn.java DEBUG Got ping response for sessionid: 0x1000016e9230002 after 1ms
+2021-06-16 21:36:48 ClientCnxn.java DEBUG Got ping response for sessionid: 0x1000016e9230002 after 1ms
+2021-06-16 21:37:02 ClientCnxn.java DEBUG Got ping response for sessionid: 0x1000016e9230002 after 0ms
+2021-06-16 21:37:15 ClientCnxn.java DEBUG Got ping response for sessionid: 0x1000016e9230002 after 1ms
+2021-06-16 21:37:28 ClientCnxn.java DEBUG Got notification sessionid:0x1000016e9230002
+2021-06-16 21:37:28 ClientCnxn.java DEBUG Got WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/servers for sessionid 0x1000016e9230002
+2021-06-16 21:37:28 ClientCnxn.java DEBUG Got ping response for sessionid: 0x1000016e9230002 after 3ms
+2021-06-16 21:37:28 ClientCnxn.java DEBUG Reading reply sessionid:0x1000016e9230002, packet:: clientPath:null serverPath:null finished:false header:: 3,8  replyHeader:: 3,10,0  request:: '/servers,T  response:: v{'server0000000000} 
+2021-06-16 21:37:28 ClientCnxn.java DEBUG Reading reply sessionid:0x1000016e9230002, packet:: clientPath:null serverPath:null finished:false header:: 4,4  replyHeader:: 4,10,0  request:: '/servers/server0000000000,F  response:: #6861646f6f70313032,s{10,10,1623850648347,1623850648347,0,0,0,72057692438593537,9,0,10} 
+2021-06-16 21:37:41 ClientCnxn.java DEBUG Got ping response for sessionid: 0x1000016e9230002 after 1ms
+2021-06-16 21:37:50 ClientCnxn.java DEBUG Got notification sessionid:0x1000016e9230002
+2021-06-16 21:37:50 ClientCnxn.java DEBUG Got WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/servers for sessionid 0x1000016e9230002
+2021-06-16 21:37:50 ClientCnxn.java DEBUG Reading reply sessionid:0x1000016e9230002, packet:: clientPath:null serverPath:null finished:false header:: 5,8  replyHeader:: 5,11,0  request:: '/servers,T  response:: v{'server0000000001,'server0000000000} 
+2021-06-16 21:37:50 ClientCnxn.java DEBUG Reading reply sessionid:0x1000016e9230002, packet:: clientPath:null serverPath:null finished:false header:: 6,4  replyHeader:: 6,11,0  request:: '/servers/server0000000001,F  response:: #6861646f6f70313033,s{11,11,1623850670494,1623850670494,0,0,0,72057692438593537,9,0,11} 
+2021-06-16 21:37:50 ClientCnxn.java DEBUG Reading reply sessionid:0x1000016e9230002, packet:: clientPath:null serverPath:null finished:false header:: 7,4  replyHeader:: 7,11,0  request:: '/servers/server0000000000,F  response:: #6861646f6f70313032,s{10,10,1623850648347,1623850648347,0,0,0,72057692438593537,9,0,10} 
+2021-06-16 21:37:59 ClientCnxn.java DEBUG Got notification sessionid:0x1000016e9230002
+2021-06-16 21:37:59 ClientCnxn.java DEBUG Got WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/servers for sessionid 0x1000016e9230002
+2021-06-16 21:37:59 ClientCnxn.java DEBUG Reading reply sessionid:0x1000016e9230002, packet:: clientPath:null serverPath:null finished:false header:: 8,8  replyHeader:: 8,12,0  request:: '/servers,T  response:: v{'server0000000002,'server0000000001,'server0000000000} 
+2021-06-16 21:37:59 ClientCnxn.java DEBUG Reading reply sessionid:0x1000016e9230002, packet:: clientPath:null serverPath:null finished:false header:: 9,4  replyHeader:: 9,12,0  request:: '/servers/server0000000002,F  response:: #6861646f6f70313034,s{12,12,1623850679192,1623850679192,0,0,0,72057692438593537,9,0,12} 
+2021-06-16 21:37:59 ClientCnxn.java DEBUG Reading reply sessionid:0x1000016e9230002, packet:: clientPath:null serverPath:null finished:false header:: 10,4  replyHeader:: 10,12,0  request:: '/servers/server0000000001,F  response:: #6861646f6f70313033,s{11,11,1623850670494,1623850670494,0,0,0,72057692438593537,9,0,11} 
+2021-06-16 21:37:59 ClientCnxn.java DEBUG Reading reply sessionid:0x1000016e9230002, packet:: clientPath:null serverPath:null finished:false header:: 11,4  replyHeader:: 11,12,0  request:: '/servers/server0000000000,F  response:: #6861646f6f70313032,s{10,10,1623850648347,1623850648347,0,0,0,72057692438593537,9,0,10} 
+2021-06-16 21:38:08 ClientCnxn.java DEBUG Got notification sessionid:0x1000016e9230002
+2021-06-16 21:38:08 ClientCnxn.java DEBUG Got WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/servers for sessionid 0x1000016e9230002
+2021-06-16 21:38:08 ClientCnxn.java DEBUG Reading reply sessionid:0x1000016e9230002, packet:: clientPath:null serverPath:null finished:false header:: 12,8  replyHeader:: 12,13,0  request:: '/servers,T  response:: v{} 
+2021-06-16 21:38:22 ClientCnxn.java DEBUG Got ping response for sessionid: 0x1000016e9230002 after 1ms
+2021-06-16 21:38:28 Environment.java INFO Client environment:zookeeper.version=3.5.9-83df9301aa5c2a5d284a9940177808c01bc35cef, built on 01/06/2021 20:03 GMT
+2021-06-16 21:38:28 Environment.java INFO Client environment:host.name=yuhang
+2021-06-16 21:38:28 Environment.java INFO Client environment:java.version=1.8.0_251
+2021-06-16 21:38:28 Environment.java INFO Client environment:java.vendor=Oracle Corporation
+2021-06-16 21:38:28 Environment.java INFO Client environment:java.home=D:\Application\Java\jdk1.8.0_251\jre
+2021-06-16 21:38:28 Environment.java INFO Client environment:java.class.path=D:\Application\Java\jdk1.8.0_251\jre\lib\charsets.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\deploy.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\access-bridge-64.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\cldrdata.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\dnsns.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\jaccess.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\jfxrt.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\localedata.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\nashorn.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\sunec.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\sunjce_provider.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\sunmscapi.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\sunpkcs11.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\ext\zipfs.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\javaws.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\jce.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\jfr.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\jfxswt.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\jsse.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\management-agent.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\plugin.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\resources.jar;D:\Application\Java\jdk1.8.0_251\jre\lib\rt.jar;D:\Programming\learn-zookeeper\target\classes;C:\Users\DELL\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\DELL\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\DELL\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\DELL\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\DELL\.m2\repository\org\apache\zookeeper\zookeeper\3.5.9\zookeeper-3.5.9.jar;C:\Users\DELL\.m2\repository\org\apache\zookeeper\zookeeper-jute\3.5.9\zookeeper-jute-3.5.9.jar;C:\Users\DELL\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\DELL\.m2\repository\io\netty\netty-handler\4.1.50.Final\netty-handler-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-common\4.1.50.Final\netty-common-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-resolver\4.1.50.Final\netty-resolver-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-buffer\4.1.50.Final\netty-buffer-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport\4.1.50.Final\netty-transport-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-codec\4.1.50.Final\netty-codec-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-epoll\4.1.50.Final\netty-transport-native-epoll-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.50.Final\netty-transport-native-unix-common-4.1.50.Final.jar;C:\Users\DELL\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\DELL\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\DELL\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\Application\JetBrains\IntelliJ IDEA 2019.2.3\lib\idea_rt.jar
+2021-06-16 21:38:28 Environment.java INFO Client environment:java.library.path=D:\Application\Java\jdk1.8.0_251\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Application\Java\jdk1.8.0_251\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Application\Python2.7.16;C:\Users\DELL\AppData\Local\Yarn\bin;D:\Application\Anaconda3;D:\Application\Anaconda3\Library\mingw-w64\bin;D:\Application\Anaconda3\Library\usr\bin;D:\Application\Anaconda3\Library\bin;D:\Application\Anaconda3\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft VS Code\bin;D:\Application\Microsoft VS Code\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Application\SVN\Servlet\bin;D:\Application\SVN\TortoiseSVN\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;D:\Application\Git\cmd;D:\Application\nvm;D:\Application\nodejs;C:\Program Files (x86)\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\Application\Java\jdk1.8.0_251\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;D:\Application\apache-maven-3.6.3\bin;D:\Application\NODEJS\node_modules;D:\Application\nvm;D:\Application\nodejs;;C:\Users\DELL\AppData\Local\hyper\app-3.0.2\resources\bin;.
+2021-06-16 21:38:28 Environment.java INFO Client environment:java.io.tmpdir=C:\Users\DELL\AppData\Local\Temp\
+2021-06-16 21:38:28 Environment.java INFO Client environment:java.compiler=<NA>
+2021-06-16 21:38:28 Environment.java INFO Client environment:os.name=Windows 10
+2021-06-16 21:38:28 Environment.java INFO Client environment:os.arch=amd64
+2021-06-16 21:38:28 Environment.java INFO Client environment:os.version=10.0
+2021-06-16 21:38:28 Environment.java INFO Client environment:user.name=DELL
+2021-06-16 21:38:28 Environment.java INFO Client environment:user.home=C:\Users\DELL
+2021-06-16 21:38:28 Environment.java INFO Client environment:user.dir=D:\Programming\learn-zookeeper
+2021-06-16 21:38:28 Environment.java INFO Client environment:os.memory.free=233MB
+2021-06-16 21:38:28 Environment.java INFO Client environment:os.memory.max=3621MB
+2021-06-16 21:38:28 Environment.java INFO Client environment:os.memory.total=245MB
+2021-06-16 21:38:28 ZooKeeper.java INFO Initiating client connection, connectString=0.0.0.0:2181 sessionTimeout=200000 watcher=com.example.zookeeper.server.DistributeServer$1@77a567e1
+2021-06-16 21:38:28 X509Util.java INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2021-06-16 21:38:29 ClientCnxnSocket.java INFO jute.maxbuffer value is 4194304 Bytes
+2021-06-16 21:38:29 ClientCnxn.java INFO zookeeper.request.timeout value is 0. feature enabled=
+2021-06-16 21:38:29 SaslServerPrincipal.java DEBUG Canonicalized address to 0.0.0.0
+2021-06-16 21:38:29 ClientCnxn.java INFO Opening socket connection to server 0.0.0.0/0.0.0.0:2181. Will not attempt to authenticate using SASL (unknown error)
+2021-06-16 21:38:29 ClientCnxn.java INFO Socket connection established, initiating session, client: /192.168.56.1:10011, server: 0.0.0.0/0.0.0.0:2181
+2021-06-16 21:38:29 ClientCnxn.java DEBUG Session establishment request sent on 0.0.0.0/0.0.0.0:2181
+2021-06-16 21:38:29 ClientCnxn.java INFO Session establishment complete on server 0.0.0.0/0.0.0.0:2181, sessionid = 0x1000016e9230003, negotiated timeout = 40000
+2021-06-16 21:38:29 ClientCnxn.java DEBUG Got notification sessionid:0x1000016e9230002
+2021-06-16 21:38:29 ClientCnxn.java DEBUG Got WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/servers for sessionid 0x1000016e9230002
+2021-06-16 21:38:29 ClientCnxn.java DEBUG Reading reply sessionid:0x1000016e9230002, packet:: clientPath:null serverPath:null finished:false header:: 13,8  replyHeader:: 13,15,0  request:: '/servers,T  response:: v{'server0000000003} 
+2021-06-16 21:38:29 ClientCnxn.java DEBUG Reading reply sessionid:0x1000016e9230003, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,15,0  request:: '/servers/server,#6861646f6f70313031,v{s{31,s{'world,'anyone}}},3  response:: '/servers/server0000000003 
+2021-06-16 21:38:29 ClientCnxn.java DEBUG Reading reply sessionid:0x1000016e9230002, packet:: clientPath:null serverPath:null finished:false header:: 14,4  replyHeader:: 14,15,0  request:: '/servers/server0000000003,F  response:: #6861646f6f70313031,s{15,15,1623850709357,1623850709357,0,0,0,72057692438593539,9,0,15} 
+2021-06-16 21:38:42 ClientCnxn.java DEBUG Got ping response for sessionid: 0x1000016e9230003 after 1ms
+2021-06-16 21:38:42 ClientCnxn.java DEBUG Got ping response for sessionid: 0x1000016e9230002 after 0ms
+2021-06-16 21:38:56 ClientCnxn.java DEBUG Got ping response for sessionid: 0x1000016e9230002 after 1ms
+2021-06-16 21:39:09 ClientCnxn.java DEBUG Got ping response for sessionid: 0x1000016e9230002 after 1ms
+2021-06-16 21:39:22 ClientCnxn.java DEBUG Got ping response for sessionid: 0x1000016e9230002 after 0ms
+2021-06-16 21:39:23 ClientCnxn.java DEBUG Got notification sessionid:0x1000016e9230002
+2021-06-16 21:39:23 ClientCnxn.java DEBUG Got WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/servers for sessionid 0x1000016e9230002
+2021-06-16 21:39:23 ClientCnxn.java DEBUG Reading reply sessionid:0x1000016e9230002, packet:: clientPath:null serverPath:null finished:false header:: 15,8  replyHeader:: 15,16,0  request:: '/servers,T  response:: v{} 
+2021-06-16 21:39:36 ClientCnxn.java DEBUG Got ping response for sessionid: 0x1000016e9230002 after 0ms
+2021-06-16 21:39:49 ClientCnxn.java DEBUG Got ping response for sessionid: 0x1000016e9230002 after 1ms
+2021-06-16 21:40:03 ClientCnxn.java DEBUG Got ping response for sessionid: 0x1000016e9230002 after 1ms
