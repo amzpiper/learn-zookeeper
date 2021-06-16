@@ -5,6 +5,7 @@ import org.apache.zookeeper.ZooDefs.Ids;
 import org.junit.Before;
 import org.junit.Test;
 import java.io.IOException;
+import java.util.List;
 
 /**
  * @author guoyh
@@ -23,6 +24,18 @@ public class ZookeeperTest {
             //监听回调
             @Override
             public void process(WatchedEvent watchedEvent) {
+                //监听节点变化
+                List<String> datas = null;
+                try {
+                    datas = zkCli.getChildren("/", true);
+                    for (String data : datas) {
+                        System.out.println(data);
+                    }
+                } catch (KeeperException e) {
+                    e.printStackTrace();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
         });
     }
@@ -38,5 +51,21 @@ public class ZookeeperTest {
         //参数4：节点类型
         String path = zkCli.create("/guoyh", "guoyh".getBytes(), Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
         System.out.println(path);
+    }
+
+    /**
+     * 获取子节点并监听节点的变化
+     */
+    @Test
+    public void getDataAndWatch() throws KeeperException, InterruptedException {
+        //参数1：节点路径
+        //参数2：是否监听
+        List<String> datas = zkCli.getChildren("/",true);
+        for (String data : datas) {
+            System.out.println(data);
+        }
+
+        //睡一会，当有节点变化时响应,在process中处理
+        Thread.sleep(Long.MAX_VALUE);
     }
 }
