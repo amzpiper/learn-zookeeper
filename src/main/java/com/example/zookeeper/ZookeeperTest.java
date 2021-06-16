@@ -1,4 +1,4 @@
-package com.examplezookeeper;
+package com.example.zookeeper;
 
 import org.apache.zookeeper.*;
 import org.apache.zookeeper.ZooDefs.Ids;
