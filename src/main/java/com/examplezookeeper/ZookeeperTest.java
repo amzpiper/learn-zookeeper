@@ -19,7 +19,7 @@ public class ZookeeperTest {
      */
     @Before
     public void init() throws IOException {
-        String connectString = "39.106.63.189:2181";
+        String connectString = "127.0.0.1:2181";
         int sessionTimeout = 200000;
         zkCli = new ZooKeeper(connectString, sessionTimeout, new Watcher() {
             //监听回调
