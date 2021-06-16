@@ -32,6 +32,7 @@ public class DistributeServer {
      */
     private void business() {
         try {
+            //保证进程不结束
             Thread.sleep(Long.MAX_VALUE);
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -44,7 +45,7 @@ public class DistributeServer {
      */
     private void regist(String hostname) {
         try {
-            //创建短暂带序号的子节点
+            //创建短暂带序号的子节点,存放主机名
             String path = zkCli.create("/servers/server", hostname.getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.EPHEMERAL_SEQUENTIAL);
             System.out.println(hostname + "is online");
         } catch (KeeperException | InterruptedException e) {
