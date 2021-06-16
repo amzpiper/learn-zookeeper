@@ -2,6 +2,7 @@ package com.examplezookeeper;
 
 import org.apache.zookeeper.*;
 import org.apache.zookeeper.ZooDefs.Ids;
+import org.apache.zookeeper.data.Stat;
 import org.junit.Before;
 import org.junit.Test;
 import java.io.IOException;
@@ -67,5 +68,16 @@ public class ZookeeperTest {
 
         //睡一会，当有节点变化时响应,在process中处理
         Thread.sleep(Long.MAX_VALUE);
+    }
+
+    /**
+     * 判断节点是否存在
+     */
+    @Test
+    public void exist() throws KeeperException, InterruptedException {
+        //参数1：节点路径
+        //参数2：是否监听
+        Stat stat = zkCli.exists("/guoyha", false);
+        System.out.println(stat == null ? "not exist":"exist");
     }
 }
